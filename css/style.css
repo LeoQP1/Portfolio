@@ -1,0 +1,252 @@
+.project-description {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.4s ease;
+}
+
+.project-description.active {
+    max-height: 300px;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c000f;
+    color: #ccd6f6;
+    font-family: "Lexend", sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.logo {
+    color: #bc4ed8;
+    font-weight: bold;
+    border: 1px solid #bc4ed8;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #bc4ed8;
+}
+
+nav a {
+    color: #8892b0;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-number {
+    color: #bc4ed8;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #bc4ed8;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border: 1px solid #bc4ed8;
+    color: #bc4ed8;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ccd6f6;
+}
+
+/* intro */
+.intro {
+    margin-top: 100px;
+    max-width: 700px;
+}
+
+.intro-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.intro-title {
+    flex: 1;
+}
+
+.intro-name {
+    color: #bc4ed8;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #bc4ed8;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.social-item i {
+    font-size: 20px;
+}
+
+.social-item:hover {
+    color: #ffffff;
+    transform: translateX(5px);
+}
+
+.layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.main-content {
+    flex: 2;
+}
+
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-image {
+    margin-top: 100px;
+    width: 250px;
+    width: 280px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 1px solid #bc4ed8;
+    transition: transform 0.3s ease;
+}
+
+.sidebar img:hover {
+    transform: scale(1.05);
+}
+
+.intro h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.intro h2 {
+    font-size: 40px;
+    color: #8892b0;
+    margin-bottom: 20px;
+    width: 700px;
+}
+
+.description {
+    color: #8892b0;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.about-title {
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    margin-left: 30px;
+    line-height: 1.5;
+    width: 700px;
+    padding-right: 30px;
+}
+
+#myExperiences h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.myExperiences p {
+    margin-left: 30px;
+    line-height: 1.5;
+    width: 700px;
+    padding-right: 30px;
+}
+
+.project-item {
+    margin-left: 60px;
+    line-height: 1.5;
+}
+
+#myGoals {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.goals {
+    margin-left: 30px;
+    line-height: 1.5;
+    width: 700px;
+    padding-right: 30px;
+}
+
+#myPersonalProjects {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.projects {
+    margin-left: 30px;
+    line-height: 1.5;
+    width: 700px;
+    padding-right: 30px;
+}
+
+.footer {
+    margin-top: 80px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+}
+
+.footer-content {
+    width: 100%;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: #bc4ed8;
+}
